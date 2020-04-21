@@ -344,6 +344,7 @@ main {
 .collections__item-image img {
   width: 13rem;
   margin-right: 0.7rem;
+  border-radius: 1rem;
 }
 
 .collections__item-info {
