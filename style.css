@@ -12,7 +12,7 @@ body {
   min-width: 318px;
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
-  background-color: #f7fafc;
+  background-color: #e8eaee;
 }
 
 /* DRY CODE */
@@ -153,7 +153,6 @@ main {
   background-position-y: -100px;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid black;
 }
 
 .header__text {
@@ -211,4 +210,156 @@ main {
 
 .header__input input:focus ~ .header img {
   filter: none;
+}
+
+/* Hot sales Containers Section */
+.div__sales-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sales__container-cont {
+  flex: 1;
+  padding-top: 2.5rem;
+}
+
+.sales__container-title h1 {
+  margin-left: 2.5rem;
+  color: red;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.sales__container-article {
+  margin: 0 1.5rem;
+  min-height: 12rem;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 1rem 0rem rgba(0,0,0,0.75);
+}
+
+.sales__container-image {
+  width: auto;
+}
+
+.sales__container-image img {
+  width: 13rem;
+  margin: 1.3rem 1.3rem;
+  border-radius: 1rem;
+}
+.sales__container-info {
+  padding-right: 1rem;
+}
+
+.sales__container-info h1 a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.sales__container-info h1 {
+  line-height: 0.5rem;
+}
+
+.sales__container-info h1 a:hover {
+  color: red;
+}
+
+.sales__container-info h2 {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.strike {
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+/* ------------------------quote__container ---------------------------------------------*/
+.quote__container {
+  text-align: center;
+  width: 60%;
+  margin: 8rem auto;
+}
+
+.quote__container h1 {
+  color: #d35266;
+  font-family: 'Courier Prime', monospace;
+  font-size: 2.3rem;
+}
+
+.quote__container h2 {
+  color: #888;
+}
+
+/*----------------------------------------- Collections Section --------------------------------------*/
+
+.collections__title {
+  width: 95%;
+  border-bottom: 1px solid #888;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.collections__title h1 {
+  margin: 2rem 0;
+  color: red;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.collections__container {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.collections__container-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.collections__container-articles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.collections__container-item {
+  flex: 1;
+  display: flex;
+  padding: 1.5rem;
+  min-height: 14rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 1rem 0rem rgba(0,0,0,0.75);
+}
+
+.collections__item-image img {
+  width: 13rem;
+  margin-right: 0.7rem;
+}
+
+.collections__item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.collections__item-image2 img {
+  width: 10rem;
+  margin-right: 0.7rem;
+  border-radius: 1rem;
+}
+
+.collection__price {
+  font-size: 1rem;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  cursor: pointer;
 }
