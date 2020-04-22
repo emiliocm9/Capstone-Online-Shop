@@ -150,6 +150,7 @@ aside {
   flex-direction: column;
   background-color: #ececec;
   padding: 4rem 1rem 2rem 4rem;
+  float: left;
 }
 
 .aside__first-rent {
@@ -199,4 +200,29 @@ aside {
   flex-direction: column;
   width: 90%;
   margin: 0 auto;
+}
+
+/*------------------------------------------------ Results Section ------------------------------*/
+.results__container {
+  width: 100%;
+  background-color: #ececec;
+}
+
+.results__title-info {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 4px double black;
+}
+
+.results__title-info h1 {
+  font-size: 1.8rem;
+  font-family: 'Exo', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #942f33;
+}
+
+.results__title-info h1 span {
+  font-weight: bold;
 }
