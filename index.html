@@ -14,15 +14,15 @@
   <title>The Next Star</title>
 </head>
 <body>
-  <nav class="nav border">
+  <nav class="nav">
     <div class="dropdown nav__menu-button">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Menu
       </button>
       <div class="dropdown-menu letras" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="#">Home</a>
-        <a class="dropdown-item" href="#">Collections</a>
-        <a class="dropdown-item" href="#">Categories</a>
+        <a class="dropdown-item" href="#collections">Collections</a>
+        <a class="dropdown-item" href="#categories">Categories</a>
         <a class="dropdown-item" href="#">Sell & Buy</a>
       </div>
     </div>
@@ -32,8 +32,8 @@
     <div class="nav__second-list">
       <ul>
         <a href="#" class="decoration-none swing"><li>Home</li></a>
-        <a href="#" class="decoration-none swing"><li>Collections</li></a>
-        <a href="#" class="decoration-none swing"><li>Categories</li></a>
+        <a href="#collections" class="decoration-none swing"><li>Collections</li></a>
+        <a href="#categories" class="decoration-none swing"><li>Categories</li></a>
         <a href="#" class="decoration-none swing"><li>Sell & Buy</li></a>
       </ul>
     </div>
@@ -56,14 +56,14 @@
         </h3>
       </div>
       <div class="header__input">
-        <label for="search__input">Here</label><input type="search" name="" id="search__input"><i class="fas fa-search"></i>
+        <input type="search" name="" id="search__input"><i class="fas fa-search"></i>
       </div>
     </div>
     <!-- Hot sales Section-->
     <div class="div__sales-container">
       <div class="sales__container-cont">
         <div class="sales__container-title">
-          <h1>Hot Prop</h1>
+          <h1>Hot sale</h1>
         </div>
         <div class="sales__container-article">
           <div class="sales__container-image">
@@ -75,7 +75,8 @@
               <h2>The Millennium Falcon has played a role in some of the greatest victories of the Rebel Alliance and the New Republic.</h2>
             </div>
             <div class="sales__container-price">
-              <span class="strike">$15M</span><span>$10M</span>
+              <div><span class="strike">$15M</span><span class="sales__price">$10M</span></div>
+              <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
             </div>
           </div>
         </div>
@@ -83,7 +84,7 @@
 
       <div class="sales__container-cont">
         <div class="sales__container-title">
-          <h1>Hot Prop</h1>
+          <h1>Hot Sale</h1>
         </div>
         <div class="sales__container-article">
           <div class="sales__container-image">
@@ -95,7 +96,8 @@
               <h2>The more famous Pursuit Special is a heavily modified Ford Falcon XB GT, built on a vehicle originally assembled stock at the Ford plant in November 1973.</h2>
             </div>
             <div class="sales__container-price">
-              <span class="strike">$3M</span><span>$1M</span>
+              <div><span class="strike">$3M</span><span class="sales__price">$1M</span></div>
+              <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
             </div>
           </div>
         </div>
@@ -103,7 +105,7 @@
 
       <div class="sales__container-cont">
         <div class="sales__container-title">
-          <h1>Hot Prop</h1>
+          <h1>Hot Sale</h1>
         </div>
         <div class="sales__container-article">
           <div class="sales__container-image">
@@ -115,7 +117,8 @@
               <h2>Ever since Marty McFly rode a hoverboard in 1989's “Back to The Future II,” people have been dreaming of making the floating device a reality. Now it is.</h2>
             </div>
             <div class="sales__container-price">
-              <span class="strike">$500</span><span>$345</span>
+              <div><span class="strike">$500</span><span class="sales__price">$345</span></div>
+              <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
             </div>
           </div>
         </div>
@@ -126,13 +129,13 @@
       <h1>“For what it’s worth: it’s never too late or, in my case, too early to be whoever you want to be.”</h1><h2>― Eric Roth, The Curious Case of Benjamin Button.</h2>
     </div>
   <!---------------------------------------- Collections Section ------------------->
-    <div class="collections__title">
+    <div id="collections" class="collections__title">
       <h1>Best movie collections</h1>
     </div>
 
     <div class="collections__container">
       <div class="collections__container-title">
-        <div>
+        <div class="title__collections">
         <h1>Star Wars</h1>
         </div>
         <div>
@@ -140,7 +143,7 @@
         </div>
       </div>
       <div class="collections__container-articles">
-        <div class="collections__container-item">
+        <div class="collections__container-item1">
           <div class="collections__item-image">
             <a href="#"><img src="img/Lightsaber_blue.png" alt="Star Wars Lightsaber"></a>
           </div>
@@ -175,7 +178,7 @@
 
     <div class="collections__container border-top">
       <div class="collections__container-title">
-        <div>
+        <div class="title__collections">
         <h1>Forrest Gump</h1>
         </div>
         <div>
@@ -183,7 +186,7 @@
         </div>
       </div>
       <div class="collections__container-articles">
-        <div class="collections__container-item">
+        <div class="collections__container-item1">
           <div class="collections__item-image">
             <a href="#"><img src="img/forrest1.jpg" alt="Forrest Gump Sneakers"></a>
           </div>
@@ -218,7 +221,7 @@
 
     <div class="collections__container border-top">
       <div class="collections__container-title">
-        <div>
+        <div class="title__collections">
         <h1>Batman</h1>
         </div>
         <div>
@@ -226,7 +229,7 @@
         </div>
       </div>
       <div class="collections__container-articles">
-        <div class="collections__container-item">
+        <div class="collections__container-item1">
           <div class="collections__item-image d-flex align-items-center">
             <a href="#"><img src="img/batman1.jpg" alt="Batmobile"></a>
           </div>
@@ -261,7 +264,7 @@
 
     <div class="collections__container border-top">
       <div class="collections__container-title">
-        <div>
+        <div class="title__collections">
         <h1>Star Trek</h1>
         </div>
         <div>
@@ -269,7 +272,7 @@
         </div>
       </div>
       <div class="collections__container-articles">
-        <div class="collections__container-item">
+        <div class="collections__container-item1">
           <div class="collections__item-image d-flex align-items-center">
             <a href="#"><img src="img/trek1.jpg" alt="Star Trek Weapon"></a>
           </div>
@@ -303,7 +306,7 @@
     </div>
 
   <!---------------------------------------------------- Items Section ------------------------------------------------>
-  <div class="collections__title">
+  <div id="categories" class="collections__title">
     <h1>Categories</h1>
   </div>
   
