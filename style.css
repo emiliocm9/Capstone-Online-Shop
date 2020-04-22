@@ -67,7 +67,7 @@ body {
   padding: 0.5rem;
 }
 
-.nav__second-list ul a {
+.nav__second-list ul li {
   flex: 1;
   color: #942f33;
   text-align: center;
@@ -77,6 +77,10 @@ body {
   font-weight: 900;
 }
 
+.nav__second-list ul li a {
+  color: #942f33;
+}
+
 .sales__container-info h1 a {
   font-size: 1.1rem;
   font-weight: bold;
@@ -84,7 +88,7 @@ body {
   color: black;
 }
 
-.nav__second-list ul a:hover {
+.nav__second-list ul li a:hover {
   color: black;
   text-decoration: none;
 }
