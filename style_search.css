@@ -238,7 +238,6 @@ aside {
   width: 100%;
   align-items: center;
   flex: 1;
-  border: 1px solid black;
   padding: 1rem;
 }
 
@@ -297,4 +296,43 @@ aside {
   font-size: 1.4rem;
   background-color: #942f33;
   color: white;
+}
+
+/*----------------------------------------------------- Results Pages Section --------------------------------------------------*/
+.results__page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ececec;
+}
+
+.results__page-cont {
+  display: flex;
+  width: auto;
+  align-items: center;
+  margin: 2rem auto 0;
+}
+
+.results__page-cont button {
+  width: 2rem;
+  height: 2rem;
+  background-color: #942f33;
+  border: none;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.results__page-cont button:hover {
+  background-color: red;
+}
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right {
+  color: #942f33;
+  font-size: 1.8rem;
+  margin: 1rem;
 }
