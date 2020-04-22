@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_search.css">
   <script src="https://kit.fontawesome.com/b8f781cebc.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" type="image/png" href="img/TNSicon.ico"/>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
@@ -15,6 +15,93 @@
   <title>The Next Star- Search Results</title>
 </head>
 <body>
+  <nav class="nav">
+    <div class="dropdown nav__menu-button">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu letras" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Home</a>
+        <a class="dropdown-item" href="#collections">Collections</a>
+        <a class="dropdown-item" href="#categories">Categories</a>
+        <a class="dropdown-item" href="#">Sell & Buy</a>
+      </div>
+    </div>
+    <div class="nav__first-logo">
+      <img src="img/TheNextStar.png" alt="TheNextStar Logo">
+    </div>
+    <div class="nav__second-list">
+      <ul>
+        <a href="#" class="decoration-none swing"><li>Home</li></a>
+        <a href="#collections" class="decoration-none swing"><li>Collections</li></a>
+        <a href="#categories" class="decoration-none swing"><li>Categories</li></a>
+        <a href="#" class="decoration-none swing"><li>Sell & Buy</li></a>
+      </ul>
+    </div>
+    <div class="nav__third-logos">
+      <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </nav>
+  <main>
+    <!--------------------------------------- Aside ------------------------------------------------------->
+    <aside>
+      <div class="aside__container">
+        <div class="aside__first-rent">
+          <div class="aside__text"><input type="checkbox" name="Rent" id="Rent" class="aside__input"> <label for="Rent">Rent</label></div>
+          <div class="aside__text"><input type="checkbox" name="Buy" id="Buy" class="aside__input">  <label for="Buy">Buy</label></div>
+        </div>
+
+        <div class="aside__second">
+          <div class="aside__second-title">
+            <h1>Categories</h1>
+          </div>
+          <form class="aside__second-list">
+            <div class="aside__text"><input type="checkbox" name="Vehicles" id="Vehicles"> <label for="Vehicles">Vehicles</label></div>
+            <div class="aside__text"><input type="checkbox" name="Weapons" id="Weapons"> <label for="Weapons">Weapons</label></div>
+            <div class="aside__text"><input type="checkbox" name="Wardrobe" id="Wardrobe"> <label for="Wardrobe">Wardrobe</label></div>
+            <div class="aside__text"><input type="checkbox" name="Props" id="Props"> <label for="Props">Props</label></div>
+            <div class="aside__text"><input type="checkbox" name="Accessories" id="Accessories"> <label for="Accessories">Accessories</label></div>
+            <div class="aside__text"><input type="checkbox" name="Furniture" id="Furniture"> <label for="Furniture">Furniture</label></div>
+            <div class="aside__text"><input type="checkbox" name="Signed" id="Signed"> <label for="Signed">Signed</label></div>
+            <div class="aside__text"><input type="checkbox" name="Special Edition" id="Special Edition"> <label for="Special Edition">Special Edition</label></div>
+          </form>
+        </div>
+        
+        <div class="aside__second">
+          <div class="aside__second-title">
+            <h1>Collections</h1>
+          </div>
+          <form class="aside__second-list">
+            <div class="aside__text"><input type="checkbox" name="Vehicles" id="Vehicles"> <label for="Vehicles">Star Wars</label></div>
+            <div class="aside__text"><input type="checkbox" name="Weapons" id="Weapons"> <label for="Weapons">Back to the Future</label></div>
+            <div class="aside__text"><input type="checkbox" name="Wardrobe" id="Wardrobe"> <label for="Wardrobe">Forrest Gump</label></div>
+            <div class="aside__text"><input type="checkbox" name="Props" id="Props"> <label for="Props">Star Trek</label></div>
+            <div class="aside__text"><input type="checkbox" name="Accessories" id="Accessories"> <label for="Accessories">Batman</label></div>
+            <div class="aside__text"><input type="checkbox" name="Furniture" id="Furniture"> <label for="Furniture">Marvel</label></div>
+          </form>
+        </div>
+
+        <div class="aside__second">
+          <div class="aside__second-title">
+            <h1>Price Range</h1>
+          </div>
+          <form class="aside__second-list">
+            <div class="aside__text"><input type="checkbox" name="Vehicles" id="Vehicles"> <label for="Vehicles">$0 - $1000</label></div>
+            <div class="aside__text"><input type="checkbox" name="Weapons" id="Weapons"> <label for="Weapons">$1000 - $10,000</label></div>
+            <div class="aside__text"><input type="checkbox" name="Wardrobe" id="Wardrobe"> <label for="Wardrobe">$10,000 - $100,000</label></div>
+            <div class="aside__text"><input type="checkbox" name="Props" id="Props"> <label for="Props">$100,000 - $500,000</label></div>
+            <div class="aside__text"><input type="checkbox" name="Accessories" id="Accessories"> <label for="Accessories">$500,000 - $1M</label></div>
+            <div class="aside__text"><input type="checkbox" name="Furniture" id="Furniture"> <label for="Furniture">$1M - $10M</label></div>
+            <div class="aside__text"><input type="checkbox" name="Signed" id="Signed"> <label for="Signed">$10 - $100M</label></div>
+          </form>
+        </div>
+      </div>
+    </aside>
+
+  </main>
   
 
 
