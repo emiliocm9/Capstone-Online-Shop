@@ -20,7 +20,7 @@ This fictitious company is in charge of buying and selling equipment used in the
 
 ## Live Webpage
 
-[Click Here](https://rawcdn.githack.com/emiliocm9/Capstone-Online-Shop/241e51f151dfa0630b3b06aad7c693e925ef0657/index.html)
+[Click Here](https://rawcdn.githack.com/emiliocm9/Capstone-Online-Shop/c460b8efd65d5d3395733822c65fcf885da820ea/index.html)
 
 ## Authors
 
