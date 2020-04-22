@@ -303,7 +303,7 @@ main {
   width: 95%;
   border-bottom: 1px solid #888;
   text-align: center;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 
 .collections__title h1 {
@@ -363,4 +363,69 @@ main {
   text-decoration: underline;
   text-decoration-color: blue;
   cursor: pointer;
+}
+
+/*------------------------------------------ Grid Items Section --------------------------------------*/
+.items__grid {
+  width: 95%;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.6rem;
+}
+
+.items__grid-conatiners {
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.items__grid-conatiners:hover {
+  filter: sepia(100%);
+  border: 2px solid red;
+  box-shadow: inset 2px 2px 7px rgba(150, 150, 150, 1);
+}
+
+.items__grid-conatiners h1 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 7px rgba(150, 150, 150, 1);
+}
+
+.grid__image {
+  background-image: url(img/Vehicles.jpg);
+}
+
+.grid__image2 {
+  background-image: url(img/weapons.jpg);
+}
+
+.grid__image3 {
+  background-image: url(img/wardrobe.png);
+}
+
+.grid__image4 {
+  background-image: url(img/props.jpg);
+}
+
+.grid__image5 {
+  background-image: url(img/accessories.jpg);
+}
+
+.grid__image6 {
+  background-image: url(img/furniture.jpg);
+}
+
+.grid__image7 {
+  background-image: url(img/signed.jpg);
+}
+
+.grid__image8 {
+  background-image: url(img/special.jpg);
 }
