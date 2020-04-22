@@ -77,15 +77,19 @@ body {
   font-weight: 900;
 }
 
-.nav__second-list ul li a {
-  color: #942f33;
-}
-
 .sales__container-info h1 a {
   font-size: 1.1rem;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   color: black;
+}
+
+.nav__second-list ul li a {
+  color: #942f33;
+}
+
+.sales__container-info h1 a:hover {
+  color: red;
 }
 
 .nav__second-list ul li a:hover {
@@ -403,10 +407,6 @@ main {
 
 .sales__container-info {
   padding-right: 1rem;
-}
-
-.sales__container-info h1 a:hover {
-  color: red;
 }
 
 .sales__container-info h2 {

@@ -77,16 +77,21 @@ body {
   font-weight: 900;
 }
 
-.nav__second-list ul li a {
-  color: #942f33;
-}
-
 .results__info-first h1 a {
   font-size: 2rem;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   color: black;
   text-transform: uppercase;
+}
+
+.nav__second-list ul li a {
+  color: #942f33;
+}
+
+.results__info-first h1 a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .nav__second-list ul li a:hover {
@@ -278,11 +283,6 @@ aside {
 
 .results__container-image img {
   width: 100%;
-}
-
-.results__info-first h1 a:hover {
-  color: red;
-  text-decoration: none;
 }
 
 .results__info-second p {
