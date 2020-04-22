@@ -429,3 +429,77 @@ main {
 .grid__image8 {
   background-image: url(img/special.jpg);
 }
+
+/*----------------------------------------------- Footer Section ----------------------------------------*/
+footer {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__first {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+}
+
+.footer__company-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__company-logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__company-logo img {
+  margin: 0 auto;
+  width: 13rem;
+}
+
+.footer__categories {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.footer__categories-title {
+  border-bottom: 1px solid red;
+  padding: 0.6rem 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
+}
+
+.footer__categories-info {
+  display: flex;
+}
+
+.footer__categories-first,
+.footer__categories-second {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__categories-first a,
+.footer__categories-second a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #383838;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
+.footer__second {
+  padding: 2rem 0;
+  text-align: center;
+}
