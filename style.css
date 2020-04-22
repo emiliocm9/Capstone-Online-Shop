@@ -58,6 +58,15 @@ body {
   height: 100%;
 }
 
+.footer__categories-first a,
+.footer__categories-second a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #383838;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
 .nav__second-list ul a {
   flex: 1;
   color: #942f33;
@@ -68,16 +77,16 @@ body {
   font-weight: 900;
 }
 
-.nav__second-list ul a:hover {
-  color: black;
-  text-decoration: none;
-}
-
 .sales__container-info h1 a {
   font-size: 1.1rem;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   color: black;
+}
+
+.nav__second-list ul a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .nav__third-logos {
@@ -87,12 +96,6 @@ body {
   justify-content: space-around;
 }
 
-.nav__third-logos a i {
-  color: black;
-  text-decoration: none;
-  font-size: 2rem;
-}
-
 .sales__container-price i {
   margin: 0;
   background-color: #942f33;
@@ -100,6 +103,12 @@ body {
   padding: 1rem 1rem 1rem 0.8rem;
   border-radius: 50%;
   font-size: 1.4rem;
+}
+
+.nav__third-logos a i {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 .nav__third-logos a i:hover {
@@ -223,10 +232,27 @@ main {
   font-size: 1.3rem;
 }
 
+.collections__item-image img {
+  width: 13rem;
+  margin-right: 0.7rem;
+  border-radius: 1rem;
+}
+
+.collections__item-image2 img {
+  width: 10rem;
+  margin-right: 0.7rem;
+  border-radius: 1rem;
+}
+
 .header__input input:focus {
   width: 25rem;
   transition: ease-in 2s;
-  box-shadow: inset 0 0 0.3rem 0rem rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 0 0.3rem 0 rgba(0, 0, 0, 0.75);
+}
+
+.footer__company-logo img {
+  margin: 0 auto;
+  width: 13rem;
 }
 
 .sales__container-image img {
@@ -341,7 +367,14 @@ main {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   border-radius: 0.5rem 0.5rem 0 0;
-  box-shadow: 0 -0.4px 1rem 0rem rgba(0, 0, 0, 0.75);
+  box-shadow: 0 -0.4px 1rem 0 rgba(0, 0, 0, 0.75);
+}
+
+.items__grid-conatiners h1 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 7px rgba(150, 150, 150, 1);
 }
 
 .sales__container-title h1:hover {
@@ -510,21 +543,9 @@ main {
   border: 1px dashed #942f33;
 }
 
-.collections__item-image img {
-  width: 13rem;
-  margin-right: 0.7rem;
-  border-radius: 1rem;
-}
-
 .collections__item-info {
   display: flex;
   flex-direction: column;
-}
-
-.collections__item-image2 img {
-  width: 10rem;
-  margin-right: 0.7rem;
-  border-radius: 1rem;
 }
 
 .collection__price {
@@ -615,13 +636,6 @@ main {
   box-shadow: inset 2px 2px 7px rgba(150, 150, 150, 1);
 }
 
-.items__grid-conatiners h1 {
-  margin: 0 auto;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 2px 2px 7px rgba(150, 150, 150, 1);
-}
-
 .grid__image {
   background-image: url(img/Vehicles.jpg);
 }
@@ -694,11 +708,6 @@ footer {
   width: 100%;
 }
 
-.footer__company-logo img {
-  margin: 0 auto;
-  width: 13rem;
-}
-
 .footer__categories {
   display: flex;
   flex-direction: column;
@@ -726,15 +735,6 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-
-.footer__categories-first a,
-.footer__categories-second a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: #383838;
-  text-transform: uppercase;
-  padding: 0.5rem;
 }
 
 .footer__second {
