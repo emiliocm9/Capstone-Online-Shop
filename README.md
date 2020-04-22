@@ -2,7 +2,9 @@
 In this project, I got a chance to build a web site based on an Online Shop. I made a fictitious company, and I designed a layout, UI and the company's logo as if the company were real with the purpose of making it unique. 
 This fictitious company is in charge of buying and selling equipment used in the most famous and successful movies in the industry. All of the items shown in the web site are pure fictional and there's not economic activity involved in this project.
 
-![PROJECT: design made by Emilio Contreras](https://github.com/emiliocm9/Web-Using-Bootstrap/blob/features/img/ProjectSS.png)
+![PROJECT: design made by Emilio Contreras](https://github.com/emiliocm9/Capstone-Online-Shop/blob/features/img/ProjectSS1.jpg)
+
+![PROJECT: design made by Emilio Contreras](https://github.com/emiliocm9/Capstone-Online-Shop/blob/features/img/ProjectSS2.jpg)
 
 ## Built With
 
