@@ -28,7 +28,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #ececec;
+  background-color: #383838;
   justify-content: space-around;
   display: flex;
   align-items: center;
@@ -40,13 +40,18 @@ body {
 }
 
 .nav__first-logo img {
-  width: 8rem;
+  width: 9rem;
 }
 
 .nav__second-list {
-  width: 45rem;
+  width: 55rem;
   display: flex;
   align-items: center;
+}
+
+.nav__icon {
+  margin-right: 1rem;
+  color: #d35266;
 }
 
 .nav__second-list ul {
@@ -85,7 +90,7 @@ body {
 }
 
 .nav__second-list ul li a {
-  color: #942f33;
+  color: #d35266;
 }
 
 .sales__container-info h1 a:hover {
@@ -93,7 +98,7 @@ body {
 }
 
 .nav__second-list ul li a:hover {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -111,17 +116,6 @@ body {
   padding: 1rem 1rem 1rem 0.8rem;
   border-radius: 50%;
   font-size: 1.4rem;
-}
-
-.nav__third-logos a i {
-  color: black;
-  text-decoration: none;
-  font-size: 2rem;
-}
-
-.nav__third-logos a i:hover {
-  transform: rotateY(360deg);
-  transition: 2s;
 }
 
 @media screen and (max-width: 718px) {
@@ -167,6 +161,75 @@ body {
   .nav__menu-button {
     display: none;
   }
+}
+
+.input__search-container {
+  background-color: #d35266;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.input__search-textcon {
+  width: 70%;
+  padding: 4rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input__search-textcon h2 {
+  color: white;
+  font-family: 'Exo', sans-serif;
+}
+
+.input__search-textcon img {
+  width: 30rem;
+  margin: 0 auto 2rem;
+}
+
+.input__search-inputcon {
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 4rem;
+}
+
+.man {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+
+#ddropdownMenuButton,
+.input__submit {
+  flex: 1;
+}
+
+.input__submit {
+  background-color: #383838;
+  margin-left: 1rem;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: 'Exo', sans-serif;
+  color: #d35266;
+}
+
+#Search,
+#Seri {
+  flex: 2;
+  padding: 0 1rem 0 1.5rem;
+  border-right: 1px solid #d35266;
+  border-left: 1px solid #d35266;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#Search::placeholder,
+#Seri::placeholder {
+  font-size: 1.4rem;
 }
 
 /* Header Section */
