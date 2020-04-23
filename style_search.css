@@ -74,7 +74,7 @@ body {
 
 .nav__second-list ul li {
   flex: 1;
-  color: #942f33;
+  color: #383838;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -94,7 +94,7 @@ body {
 }
 
 .sales__container-info h1 a:hover {
-  color: red;
+  color: #d35266;
 }
 
 .nav__second-list ul li a:hover {
@@ -111,7 +111,7 @@ body {
 
 .sales__container-price i {
   margin: 0;
-  background-color: #942f33;
+  background-color: #383838;
   color: white;
   padding: 1rem 1rem 1rem 0.8rem;
   border-radius: 50%;
@@ -176,17 +176,18 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  text-align: center;
+  text-align: start;
 }
 
 .input__search-textcon h2 {
   color: white;
   font-family: 'Exo', sans-serif;
+  padding-left: 2rem;
 }
 
 .input__search-textcon img {
-  width: 30rem;
-  margin: 0 auto 2rem;
+  width: 15rem;
+  margin-bottom: 2rem;
 }
 
 .input__search-inputcon {
@@ -231,6 +232,12 @@ body {
 #Search::placeholder,
 #Seri::placeholder {
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 620px) {
+  .input__search-container {
+    display: none;
+  }
 }
 
 /* Main section */
@@ -306,7 +313,7 @@ aside {
 
 .results__title-info {
   width: 100%;
-  text-align: center;
+  text-align: start;
   padding: 2rem 0;
   border-bottom: 4px double black;
 }
@@ -316,12 +323,12 @@ aside {
   font-family: 'Exo', sans-serif;
   font-style: italic;
   font-weight: normal;
-  color: #942f33;
+  color: #383838;
 }
 
 .collections__icon-width span {
   font-size: 1.8rem;
-  text-decoration-color: red;
+  text-decoration-color: #d35266;
   border-radius: 0.5rem;
   padding: 0.5rem;
   text-align: center;
@@ -377,7 +384,7 @@ aside {
   padding: 1.1rem 1rem 1rem 0.8rem;
   border-radius: 50%;
   font-size: 1.4rem;
-  background-color: #942f33;
+  background-color: #383838;
   color: white;
 }
 
@@ -385,7 +392,7 @@ aside {
   .results__container-item {
     flex-direction: column;
     padding-top: 3rem;
-    border-top: 1px dashed #942f33;
+    border-top: 1px dashed #383838;
   }
 
   .results__container-info {
@@ -442,7 +449,7 @@ aside {
 .results__page-cont button {
   width: 2rem;
   height: 2rem;
-  background-color: #942f33;
+  background-color: #383838;
   border: none;
   margin: 0.5rem;
   border-radius: 0.5rem;
@@ -453,12 +460,12 @@ aside {
 }
 
 .results__page-cont button:hover {
-  background-color: red;
+  background-color: #d35266;
 }
 
 .fa-arrow-circle-left,
 .fa-arrow-circle-right {
-  color: #942f33;
+  color: #383838;
   font-size: 1.8rem;
   margin: 1rem;
 }
@@ -502,12 +509,12 @@ footer {
 }
 
 .footer__categories-title {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #d35266;
   padding: 0.6rem 0;
   font-size: 1.5rem;
   text-transform: uppercase;
   text-align: center;
-  color: red;
+  color: #d35266;
   font-weight: bold;
 }
 
@@ -530,5 +537,5 @@ footer {
 }
 
 .fa-heart {
-  color: red;
+  color: #d35266;
 }
