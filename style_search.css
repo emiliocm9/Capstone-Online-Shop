@@ -89,11 +89,23 @@ body {
   color: black;
 }
 
+.results__info-first h1 a {
+  color: #383838;
+  font-size: 1.8rem;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .nav__second-list ul li a {
   color: #d35266;
 }
 
 .sales__container-info h1 a:hover {
+  color: #d35266;
+}
+
+.results__info-first h1 a:hover {
   color: #d35266;
 }
 
@@ -325,6 +337,10 @@ aside {
   color: #383838;
 }
 
+.results__info-second span {
+  font-size: 1.2rem;
+}
+
 .results__title-info h1 span {
   font-weight: bold;
 }
@@ -342,19 +358,7 @@ aside {
   flex: 1;
   padding: 1rem;
   border: 1px solid #888;
-  margin: 0.5rem 0; 
-}
-
-.results__info-first h1 a {
-  color: #383838;
-  font-size: 1.8rem;
-  font-family: 'Exo', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.results__info-first h1 a:hover {
-  color: #d35266;
+  margin: 0.5rem 0;
 }
 
 .results__container-image {
@@ -379,10 +383,6 @@ aside {
   height: 3rem;
   font-size: 1.5rem;
   font-family: 'Exo', sans-serif;
-}
-
-.results__info-second span {
-  font-size: 1.2rem;
 }
 
 .results__container-info {
