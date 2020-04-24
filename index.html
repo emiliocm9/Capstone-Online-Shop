@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b8f781cebc.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/png" href="img/logoTheNextStaricon.ico"/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>The Next Star</title>
+</head>
+<body>
+  <nav class="nav">
+    <div class="dropdown nav__menu-button">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu letras" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Home</a>
+        <a class="dropdown-item" href="#collections">Collections</a>
+        <a class="dropdown-item" href="#categories">Categories</a>
+        <a class="dropdown-item" href="#">Search</a>
+      </div>
+    </div>
+    <div class="nav__first-logo">
+      <img src="img/logoTheNextStarwhite.png" alt="TheNextStar Logo">
+      <div class="nav__second-list">
+        <ul>
+          <li><i class="fas fa-home nav__icon"></i><a href="index.html" class="decoration-none swing">Home</a></li>
+          <li><i class="fas fa-layer-group nav__icon"></i><a href="#collections" class="decoration-none swing">Collections</a></li>
+          <li><i class="fas fa-tags nav__icon"></i><a href="#categories" class="decoration-none swing">Categories</a></li>
+          <li><i class="fas fa-search-plus nav__icon"></i><a href="search.html" class="decoration-none swing">Search</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!-- Input Section With Logo -->
+    <section class="input__search-container">
+      <div class="input__search-textcon">
+        <img src="img/logoTheNextStarwhite.png" alt="The Next Star Logo">
+        <h2>Buying and Selling Couldn't be Simpler than this!</h2>
+      </div>
+      <div class="input__search-inputcon">
+        <div class="dropdown man">
+          <button class="btn btn-light dropdown-toggle" type="button" id="ddropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories
+          </button>
+          <div class="dropdown-menu letras" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#collections">Collections</a>
+            <a class="dropdown-item" href="#categories">Categories</a>
+            <a class="dropdown-item" href="#">Search</a>
+          </div>
+          <input type="search" name="Search" id="Search" placeholder="What do you search for?">
+          <input type="search" name="Seri" id="Seri" placeholder="Choose your favourite movie">
+          <button type="submit" value="Search" class="input__submit">Search</button>
+        </div>
+      </div>
+    </section>
+    <!-- Header Section -->
+    <div class="hot__section-container">
+        <div class="hot__container-left">
+          <i class="far fa-arrow-alt-circle-left"></i>
+        </div>
+      <section class="hot_add-section">
+        <div class="hot__add-title">
+          <h2>Hot Ads</h2>
+        </div>
+        <div class="hot__add-container">
+          <div class="hot__add-image">
+            <img src="img/Vehicles4.jpg" alt="Batman Vehicle">
+            <button class="hot_image-icons">
+              <i class="fas fa-chevron-left"></i>
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="hot__add-info">
+            <h2>Bruce Wayne's Lamborghini</h2>
+            <p>The Lamborghini is the luxury automobile used by Bruce Wayne in Christopher Nolan's Batman film trilogy. He drives a Murciélago (which means "bat" in Spanish) roadster in Batman Begins, a model; Murciélago LP 640.</p>
+            <div class="hot__info-author">
+              <span><span class="bold">By: </span>John Doe</span>
+              <span><span class="bold">Location: </span>Dubai</span>
+            </div>
+            <div class="hot__info-buttons">
+              <button>450$</button><button><i class="fas fa-shopping-cart"></i>Purchase</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="hot__container-left">
+        <i class="far fa-arrow-alt-circle-right"></i>
+      </div>
+    </div>
+    <!-- Hot sales Section-->
+    <div class="div__sales-container">
+      <div class="sales__container-cont">
+        <div class="sales__container-title">
+          <h1>Hot sale</h1>
+        </div>
+        <div class="sales__container-article">
+          <div class="sales__container-image">
+            <img src="img/Millenium_Falcon.png" alt="Millenium Falcon">
+          </div>
+          <div class="sales__container-infocon">
+            <div class="sales__container-info">
+              <h1><a href="#">Millennium Falcon</a></h1>
+              <h2>The Millennium Falcon has played a role in some of the greatest victories of the Rebel Alliance and the New Republic.</h2>
+            </div>
+            <div class="sales__container-price">
+              <div><span class="strike">$15M</span><span class="sales__price">$10M</span></div>
+              <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sales__container-cont">
+        <div class="sales__container-title">
+          <h1>Hot Sale</h1>
+        </div>
+        <div class="sales__container-article">
+          <div class="sales__container-image">
+            <img src="img/Pursuit_Special-Madmax.png" alt="Pursuit Special-Madmax">
+          </div>
+          <div class="sales__container-infocon">
+            <div class="sales__container-info">
+              <h1><a href="#">Mad Max Vehicle Pursuit Special</a></h1>
+              <h2>The more famous Pursuit Special is a heavily modified Ford Falcon XB GT, built on a vehicle originally assembled stock at the Ford plant in November 1973.</h2>
+            </div>
+            <div class="sales__container-price">
+              <div><span class="strike">$3M</span><span class="sales__price">$1M</span></div>
+              <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sales__container-cont">
+        <div class="sales__container-title">
+          <h1>Hot Sale</h1>
+        </div>
+        <div class="sales__container-article">
+          <div class="sales__container-image">
+            <img src="img/Hoverboard-btf.jpg" alt="Hoverboard Back to the Future">
+          </div>
+          <div class="sales__container-infocon">
+            <div class="sales__container-info">
+              <h1><a href="#">Marty McFly's Hoverboard</a></h1>
+              <h2>Ever since Marty McFly rode a hoverboard in 1989's “Back to The Future II,” people have been dreaming of making the floating device a reality. Now it is.</h2>
+            </div>
+            <div class="sales__container-price">
+              <div><span class="strike">$500</span><span class="sales__price">$345</span></div>
+              <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quote Container -->
+    <div class="quote__container">
+      <h1>“For what it’s worth: it’s never too late or, in my case, too early to be whoever you want to be.”</h1><h2>― Eric Roth, The Curious Case of Benjamin Button.</h2>
+    </div>
+  <!-- Collections Section -->
+    <div id="collections" class="collections__title">
+      <h1>Best movie collections</h1>
+    </div>
+
+    <div class="collections__container">
+      <div class="collections__container-title">
+        <div class="title__collections">
+        <h1>Star Wars</h1>
+        </div>
+        <div>
+        <p class="quote">“The Force will be with you. Always.”</p>
+        </div>
+      </div>
+      <div class="collections__container-articles">
+        <div class="collections__container-item1">
+          <div class="collections__item-image">
+            <a href="#"><img src="img/Lightsaber_blue.png" alt="Star Wars Lightsaber"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Star Wars Lightsaber</a></h1>
+            <h2>The lightsaber is the weapon of a Jedi, an elegant weapon of a more civilized age. It can be used to cut through blast doors or enemies alike.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$3000</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image2">
+            <a href="#"><img src="img/darth-vader.jpg" alt="Darth Vader Mask"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Darth Vader's Helmet</a></h1>
+            <h2>The mask itself went halfway around Vader's head. The mask's appearance was given a similar appearance to a skull in order to enhance the fear factor of the Dark Lord of the Sith.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$4000</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image">
+            <a href="#"><img src="img/R2D2.jpg" alt="Star Wars R2D2 Droid"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">R2-D2 Droid</a></h1>
+            <h2>R2-D2 is an Astromech Droid from a galaxy far, far away and has been brought to life like never before.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$10,000</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collections__container">
+      <div class="collections__container-title">
+        <div class="title__collections">
+        <h1>Forrest Gump</h1>
+        </div>
+        <div>
+        <p class="quote">“My Mama always said you've got to put the past behind you before you can move on.”</p>
+        </div>
+      </div>
+      <div class="collections__container-articles">
+        <div class="collections__container-item1">
+          <div class="collections__item-image">
+            <a href="#"><img src="img/forrest1.jpg" alt="Forrest Gump Sneakers"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Forrest Gump's running shoes</a></h1>
+            <h2>These battered Nike trainers are no ordinary running shoes. They were worn by Tom Hanks in the iconic park bench scene in 1994’s epic running man movie Forrest Gump.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$10,000</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image2">
+            <a href="#"><img src="img/forrest2.jpg" alt="Bubba Gump Cap"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Bubba Gump Shrimp Co. Red Cap</a></h1>
+            <h2>The “Forrest Gump” hat is from the movie Forrest Gump . It is the one worn by Tom Hanks as “Forrest Gump” and could be yours if you want. Don't lose the opportunity. </h2>
+            <div class="collections__icon-width"><span class="collection__price">$4000</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image">
+            <a href="#"><img src="img/Forrest3.jpg" alt="Chocolate Box"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Gump's Chocolate Box</a></h1>
+            <h2>Sweet Chocolate Box, original Forrest Gump's product. The best gift for you girlfriend or whoever you wanna be important for. </h2>
+            <div class="collections__icon-width"><span class="collection__price">$50</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collections__container">
+      <div class="collections__container-title">
+        <div class="title__collections">
+        <h1>Batman</h1>
+        </div>
+        <div>
+        <p class="quote">“The night is darkest just before the dawn. And I promise you, the dawn is coming"</p>
+        </div>
+      </div>
+      <div class="collections__container-articles">
+        <div class="collections__container-item1">
+          <div class="collections__item-image d-flex align-items-center">
+            <a href="#"><img src="img/batman1.jpg" alt="Batmobile"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Gumball 3000 Batmobile</a></h1>
+            <h2>A bulletproof Special Edition Car. Made by Wayne Enterprises, this car has been driven by the real Batman to save Gotham City.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$3M</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image2 d-flex align-items-center">
+            <a href="#"><img src="img/batman2.jpg" alt="Batman's Motorcycle"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Batman's Motorcycle</a></h1>
+            <h2>A nice piece of engineering, bulletproof, with the most futuristic design. Batman has used it to fight the most dangerous villians.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$500,000</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image">
+            <a href="#"><img src="img/Batman3.jpg" alt="Batarang"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Batarang</a></h1>
+            <h2>The most usefull tool used by Thomas Wayne. There's no enemy with no fair of it. We have cleaned it specially for you.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$400</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collections__container">
+      <div class="collections__container-title">
+        <div class="title__collections">
+        <h1>Star Trek</h1>
+        </div>
+        <div>
+        <p class="quote">“Logic is the beginning of wisdom, not the end."</p>
+        </div>
+      </div>
+      <div class="collections__container-articles">
+        <div class="collections__container-item1">
+          <div class="collections__item-image d-flex align-items-center">
+            <a href="#"><img src="img/trek1.jpg" alt="Star Trek Weapon"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Star Trek Rifle</a></h1>
+            <h2>A Phaser Rifle, was the Federation classification for the most powerful rifle variant of the standard Starfleet handheld phaser.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$500,000</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image2 d-flex align-items-center">
+            <a href="#"><img src="img/trek2.jpg" alt="Star Trek Laser"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Star Trek Laser</a></h1>
+            <h2>Defensive directed-energy technology, used within sidearms by the Federation before the advent of the phaser.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$1M</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+        <div class="collections__container-item">
+          <div class="collections__item-image">
+            <a href="#"><img src="img/trek3.jpg" alt="Bat'leth"></a>
+          </div>
+          <div class="sales__container-info">
+            <h1><a href="#">Star Trek Bat'leth</a></h1>
+            <h2>Phasers? Earthling nonsense. Hand-to-hand blade combat to the death is what really makes a warrior.</h2>
+            <div class="collections__icon-width"><span class="collection__price">$500</span><a href="#"><i class="fas fa-shopping-cart collections__icon"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Items Section -->
+  <div id="categories" class="collections__title">
+    <h1>Categories</h1>
+  </div>
+  
+  <div class="items__grid">
+    <div class="items__grid-conatiners grid__image">
+      <h1 class="items__grid-contitle">Vehicles</h1>
+    </div>
+    <div class="items__grid-conatiners grid__image2">
+      <h1 class="items__grid-contitle">Weapons</h1>
+    </div>
+    <div class="items__grid-conatiners grid__image3">
+      <h1 class="items__grid-contitle">Wardrobe</h1>
+    </div>
+    <div class="items__grid-conatiners grid__image4">
+      <h1 class="items__grid-contitle">Props</h1>
+    </div>
+    <div class="items__grid-conatiners grid__image5">
+      <h1 class="items__grid-contitle">Accessories</h1>
+    </div>
+    <div class="items__grid-conatiners grid__image6">
+      <h1 class="items__grid-contitle">Furniture</h1>
+    </div>
+    <div class="items__grid-conatiners grid__image7">
+      <h1 class="items__grid-contitle">Signed</h1>
+    </div>
+    <div class="items__grid-conatiners grid__image8">
+      <h1 class="items__grid-contitle">Special Edition</h1>
+    </div>
+  </div>
+
+    <!-- Quote Container -->
+    <div class="quote__container">
+      <h1>“Life is not the amount of breaths you take, it’s the moments that take your breath away.”</h1><h2>– Hitch (Will Smith)</h2>
+    </div>
+  
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer__first border-bottom">
+      <div class="footer__company-info">
+        <div class="footer__company-logo">
+          <img src="img/TheNextStar.png" alt="The Next Star Logo">
+        </div>
+        <div class="footer__company-description">
+          The Next Star is a fictitious company in charge of buying and selling equipment used in the most famous and successful movies in the industry. We are not responsible for the misuse of the material sold, but we are guilty of happiness in our customers.
+        </div>
+      </div>
+      <div class="footer__categories">
+        <div class="footer__categories-title">Categories</div>
+        <div class="footer__categories-info">
+          <div class="footer__categories-first">
+            <a href="#"><span>Vehicles</span></a>
+            <a href="#"><span>Weapons</span></a>
+            <a href="#"><span>Wardrobe</span></a>
+            <a href="#"><span>Props</span></a>
+          </div>
+          <div class="footer__categories-second">
+            <a href="#"><span>Accessories</span></a>
+            <a href="#"><span>Furniture</span></a>
+            <a href="#"><span>Signed</span></a>
+            <a href="#"><span>Special Edition</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__second">
+      <span>None of the items shown are for sale.</span> <br>
+      <span>Copyright©	2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad</span><br>
+      <span>This web page has been made with <i class="fas fa-heart"></i> in Mexico by Emilio Contreras. Feel free to give your feedback.</span>
+    </div>
+  </footer>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_search.css">
+  <script src="https://kit.fontawesome.com/b8f781cebc.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/png" href="img/logoTheNextStaricon.ico"/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>The Next Star-Search Results</title>
+</head>
+<body>
+  <nav class="nav">
+    <div class="dropdown nav__menu-button">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+      </button>
+      <div class="dropdown-menu letras" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Home</a>
+        <a class="dropdown-item" href="#collections">Collections</a>
+        <a class="dropdown-item" href="#categories">Categories</a>
+        <a class="dropdown-item" href="#">Search</a>
+      </div>
+    </div>
+    <div class="nav__first-logo">
+      <img src="img/logoTheNextStarwhite.png" alt="TheNextStar Logo">
+      <div class="nav__second-list">
+        <ul>
+          <li><i class="fas fa-home nav__icon"></i><a href="index.html" class="decoration-none swing">Home</a></li>
+          <li><i class="fas fa-layer-group nav__icon"></i><a href="index.html#collections" class="decoration-none swing">Collections</a></li>
+          <li><i class="fas fa-tags nav__icon"></i><a href="index.html#categories" class="decoration-none swing">Categories</a></li>
+          <li><i class="fas fa-search-plus nav__icon"></i><a href="search.html" class="decoration-none swing">Search</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+    <section class="input__search-container">
+      <div class="input__search-textcon">
+        <img src="img/logoTheNextStarwhite.png" alt="The Next Star Logo">
+        <h2>Buying and Selling Couldn't be Simpler than this!</h2>
+      </div>
+      <div class="input__search-inputcon">
+        <div class="dropdown man">
+          <button class="btn btn-light dropdown-toggle" type="button" id="ddropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories
+          </button>
+          <div class="dropdown-menu letras" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="index.html#collections">Collections</a>
+            <a class="dropdown-item" href="index.html#categories">Categories</a>
+            <a class="dropdown-item" href="#">Search</a>
+          </div>
+          <input type="search" name="Search" id="Search" placeholder="What do you search for?">
+          <input type="search" name="Seri" id="Seri" placeholder="Choose your favourite movie">
+          <button type="submit" value="Search" class="input__submit">Search</button>
+        </div>
+      </div>
+    </section>
+    <!-- Aside -->
+    <aside>
+      <div class="aside__container">
+        <div class="aside__first-rent">
+          <div class="aside__text"><input type="checkbox" name="Rent" id="Rent" class="aside__input"> <label for="Rent">Rent</label></div>
+          <div class="aside__text"><input type="checkbox" name="Buy" id="Buy" class="aside__input">  <label for="Buy">Buy</label></div>
+        </div>
+
+        <div class="aside__second">
+          <div class="aside__second-title">
+            <h2>Categories</h2>
+          </div>
+          <form class="aside__second-list">
+            <div class="aside__text"><input type="checkbox" name="Vehicles" id="Vehicles"> <label for="Vehicles">Vehicles</label></div>
+            <div class="aside__text"><input type="checkbox" name="Weapons" id="Weapons"> <label for="Weapons">Weapons</label></div>
+            <div class="aside__text"><input type="checkbox" name="Wardrobe" id="Wardrobe"> <label for="Wardrobe">Wardrobe</label></div>
+            <div class="aside__text"><input type="checkbox" name="Props" id="Props"> <label for="Props">Props</label></div>
+            <div class="aside__text"><input type="checkbox" name="Accessories" id="Accessories"> <label for="Accessories">Accessories</label></div>
+            <div class="aside__text"><input type="checkbox" name="Furniture" id="Furniture"> <label for="Furniture">Furniture</label></div>
+            <div class="aside__text"><input type="checkbox" name="Signed" id="Signed"> <label for="Signed">Signed</label></div>
+            <div class="aside__text"><input type="checkbox" name="Special Edition" id="Special_Edition"> <label for="Special_Edition">Special Edition</label></div>
+          </form>
+        </div>
+        
+        <div class="aside__second">
+          <div class="aside__second-title">
+            <h2>Collections</h2>
+          </div>
+          <form class="aside__second-list">
+            <div class="aside__text"><input type="checkbox" name="vvehicles" id="vvehicles"> <label for="vvehicles">Star Wars</label></div>
+            <div class="aside__text"><input type="checkbox" name="wweapons" id="wweapons"> <label for="wweapons">Back to the Future</label></div>
+            <div class="aside__text"><input type="checkbox" name="wwardrobe" id="wwardrobe"> <label for="wwardrobe">Forrest Gump</label></div>
+            <div class="aside__text"><input type="checkbox" name="pprops" id="pprops"> <label for="pprops">Star Trek</label></div>
+            <div class="aside__text"><input type="checkbox" name="aaccessories" id="aaccessories"> <label for="aaccessories">Batman</label></div>
+            <div class="aside__text"><input type="checkbox" name="ffurniture" id="ffurniture"> <label for="ffurniture">Marvel</label></div>
+          </form>
+        </div>
+
+        <div class="aside__second">
+          <div class="aside__second-title">
+            <h2>Price Range</h2>
+          </div>
+          <form class="aside__second-list">
+            <div class="aside__text"><input type="checkbox" name="avehicles" id="aVehicles"> <label for="aVehicles">$0 - $1000</label></div>
+            <div class="aside__text"><input type="checkbox" name="aweapons" id="aWeapons"> <label for="aWeapons">$1000 - $10,000</label></div>
+            <div class="aside__text"><input type="checkbox" name="aWardrobe" id="aWardrobe"> <label for="aWardrobe">$10,000 - $100,000</label></div>
+            <div class="aside__text"><input type="checkbox" name="aProps" id="aProps"> <label for="aProps">$100,000 - $500,000</label></div>
+            <div class="aside__text"><input type="checkbox" name="aAccessories" id="aAccessories"> <label for="aAccessories">$500,000 - $1M</label></div>
+            <div class="aside__text"><input type="checkbox" name="aFurniture" id="aFurniture"> <label for="aFurniture">$1M - $10M</label></div>
+            <div class="aside__text"><input type="checkbox" name="aSigned" id="aSigned"> <label for="aSigned">$10 - $100M</label></div>
+          </form>
+        </div>
+      </div>
+    </aside>
+    <!-- Search Results Section -->
+    <div class="results__container">
+      <div class="results__title-info">
+        <h1><i class="fas fa-search"></i><span>45 </span>Results for <span>"Batman"</span> Search in Category <span>Vehicles</span></h1>
+      </div>
+
+      <div class="results__container-big">
+        <div class="results__container-item">
+          <div class="results__container-image">
+            <img src="img/Vehicles1.jpg" alt="Batman Vehicle Tumbler">
+          </div>
+          <div class="results__container-info">
+            <div class="results__info-first">
+             <h1><a href="#">Batmobile Dark Night Tumbler</a></h1>
+            </div>
+            <div class="results__info-second">
+              <p>The Tumbler was a vehicle that was used by Batman. It came complete with an array of weapons and gadgets.</p>
+              <span><span class="bold">Location: </span>Dubai</span>
+            </div>
+            <div class="results__info-third">
+              <div><span class="date">23 April, 2020</span></div>
+              <div class="collections__icon-width"><button>3,000$</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="results__container-item">
+          <div class="results__container-image">
+            <img src="img/Vehicles2.jpg" alt="Batman Vehicle Tumbler">
+          </div>
+          <div class="results__container-info">
+            <div class="results__info-first">
+             <h1><a href="#">Batmobile (Burton Films)</a></h1>
+            </div>
+            <div class="results__info-second">
+              <p>The Batmobile was Batman's primary mode of transportation. At first, Batman often simply referred to that Batmobile as "the car", and he later called it the Batmobile.</p>
+              <span><span class="bold">Location: </span>Dubai</span>
+            </div>
+            <div class="results__info-third">
+              <div><span class="date">23 April, 2020</span></div>
+              <div class="collections__icon-width"><button>9,000$</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="results__container-item">
+          <div class="results__container-image">
+            <img src="img/Vehicles3.jpg" alt="Batman Vehicle Tumbler">
+          </div>
+          <div class="results__container-info">
+            <div class="results__info-first">
+             <h1><a href="#">Batmobile (Dozierverse)</a></h1>
+            </div>
+            <div class="results__info-second">
+              <p>The Batmobile from the 1966–1968 live action television show and its film adaptation began life as a Ford concept car called the Lincoln Futura, built over a decade earlier in 1955.</p>
+              <span><span class="bold">Location: </span>Dubai</span>
+            </div>
+            <div class="results__info-third">
+              <div><span class="date">23 April, 2020</span></div>
+              <div class="collections__icon-width"><button>7,000$</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="results__container-item">
+          <div class="results__container-image">
+            <img src="img/Vehicles4.jpg" alt="Batman Vehicle Tumbler">
+          </div>
+          <div class="results__container-info">
+            <div class="results__info-first">
+             <h1><a href="#">Bruce Wayne's Lamborghini</a></h1>
+            </div>
+            <div class="results__info-second">
+              <p>The Lamborghini is the luxury automobile used by Bruce Wayne in Christopher Nolan's Batman film trilogy. He drives a Murciélago (which means "bat" in Spanish) roadster in Batman Begins,; a model; Murciélago LP 640;The Dark Knight, it also got crashed in the dark night and a model Aventador LP 700-4 in The Dark Knight Rises.</p>
+              <span><span class="bold">Location: </span>Dubai</span>
+            </div>
+            <div class="results__info-third">
+              <div><span class="date">23 April, 2020</span></div>
+              <div class="collections__icon-width"><button>4,000$</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="results__container-item">
+          <div class="results__container-image">
+            <img src="img/Vehicles5.jpg" alt="Batman Vehicle Tumbler">
+          </div>
+          <div class="results__container-info">
+            <div class="results__info-first">
+             <h1><a href="#">The Bat</a></h1>
+            </div>
+            <div class="results__info-second">
+              <p>The Bat was the name that was given to the aircraft that was operated by Batman in The Dark Knight Rises.</p>
+              <span><span class="bold">Location: </span>Dubai</span>
+            </div>
+            <div class="results__info-third">
+              <div><span class="date">23 April, 2020</span></div>
+              <div class="collections__icon-width"><button>15,000$</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="results__container-item">
+          <div class="results__container-image">
+            <img src="img/Vehicles6.jpg" alt="Batman Vehicle Tumbler">
+          </div>
+          <div class="results__container-info">
+            <div class="results__info-first">
+             <h1><a href="#">Batpod Vehicle</a></h1>
+            </div>
+            <div class="results__info-second">
+              <p>The Batpod is intended as a kind of "escape pod" integrated into the Tumbler, it also served an auxiliary vehicle. Armed with dual front-mounted cannons, machine guns and grappling hooks, the Batpod affords Batman greater mobility at the cost of some protection.</p>
+              <span><span class="bold">Location: </span>Dubai</span>
+            </div>
+            <div class="results__info-third">
+              <div><span class="date">23 April, 2020</span></div>
+              <div class="collections__icon-width"><button>16,000$</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Restults Page section -->
+      <div class="results__page-container">
+        <div class="results__page-cont">
+          <a href="#"><i class="fas fa-arrow-circle-left"></i></a>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <a href="#"><i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer__first border-bottom">
+        <div class="footer__company-info">
+          <div class="footer__company-logo">
+            <img src="img/TheNextStar.png" alt="The Next Star Logo">
+          </div>
+          <div class="footer__company-description">
+            The Next Star is a fictitious company in charge of buying and selling equipment used in the most famous and successful movies in the industry. We are not responsible for the misuse of the material sold, but we are guilty of happiness in our customers.
+          </div>
+        </div>
+        <div class="footer__categories">
+          <div class="footer__categories-title">Categories</div>
+          <div class="footer__categories-info">
+            <div class="footer__categories-first">
+              <a href="#"><span>Vehicles</span></a>
+              <a href="#"><span>Weapons</span></a>
+              <a href="#"><span>Wardrobe</span></a>
+              <a href="#"><span>Props</span></a>
+            </div>
+            <div class="footer__categories-second">
+              <a href="#"><span>Accessories</span></a>
+              <a href="#"><span>Furniture</span></a>
+              <a href="#"><span>Signed</span></a>
+              <a href="#"><span>Special Edition</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__second">
+        <span>None of the items shown are for sale.</span> <br>
+        <span>Copyright©	2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad</span><br>
+        <span> This web page has been made with <i class="fas fa-heart"></i> in Mexico by Emilio Contreras. Feel free to give your feedback.</span>
+      </div>
+    </footer>
+  </main>
+  
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
